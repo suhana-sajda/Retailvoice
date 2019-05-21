@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp">
+
+    <Button
+        android:text="All Items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnItems"
+        android:background="#fff"
+        android:textColor="#808080"
+        android:textAlignment="textStart"
+        android:drawableRight="@mipmap/ic_keyboard_arrow_right_grey600_48dp"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <Button
+        android:text="Categories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCategories"
+        android:background="#fff"
+        android:textColor="#808080"
+        android:textAlignment="textStart"
+        android:drawableRight="@mipmap/ic_keyboard_arrow_right_grey600_48dp"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <Button
+        android:text="Discounts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnDiscounts"
+        android:background="#fff"
+        android:textColor="#808080"
+        android:textAlignment="textStart"
+        android:drawableRight="@mipmap/ic_keyboard_arrow_right_grey600_48dp"
+        style="?android:attr/borderlessButtonStyle"/>
+</LinearLayout>

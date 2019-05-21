@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.retailvoice.sellerapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:name="com.retailvoice.sellerapp.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.retailvoice.sellerapp.activities.RegisterActivity"
+            android:label="Retailvoice"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.retailvoice.sellerapp.activities.ItemsActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.retailvoice.sellerapp.activities.ProductsActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name="com.retailvoice.sellerapp.activities.CategoriesActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name="com.retailvoice.sellerapp.activities.SaleActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.retailvoice.sellerapp.activities.SavedOrdersActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.retailvoice.sellerapp.activities.AboutActivity"
+            android:label="About"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.retailvoice.sellerapp.activities.PrivacyActivity"
+            android:label="Privacy"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.retailvoice.sellerapp.activities.CheckoutActivity" />
+        <activity android:name="com.retailvoice.sellerapp.activities.PaymentActivity" />
+        <activity android:name="com.retailvoice.sellerapp.activities.CashPaymentActivity" />
+        <activity
+            android:name="com.retailvoice.sellerapp.activities.TenderCashActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.retailvoice.sellerapp.activities.SaveCartActivity" />
+        <activity
+            android:name="com.retailvoice.sellerapp.activities.BarcodeScannerActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.retailvoice.sellerapp.activities.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.retailvoice.sellerapp.activities.SignupActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.retailvoice.sellerapp.activities.ViewOrderActivity" />
+    </application>
+
+</manifest>

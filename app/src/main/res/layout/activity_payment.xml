@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <Button
+        android:text="Cash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCash"
+        android:background="#fff"
+        android:textColor="#808080"
+        android:drawablePadding="15dp"
+        android:textAlignment="textStart"
+        android:drawableRight="@mipmap/ic_keyboard_arrow_right_grey600_48dp"
+        android:drawableLeft="@drawable/ic_cash"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <Button
+        android:text="Record Card Payment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnRecordCardPayment"
+        android:background="#fff"
+        android:textColor="#808080"
+        android:textAlignment="textStart"
+        android:drawableRight="@mipmap/ic_keyboard_arrow_right_grey600_48dp"
+        android:drawableLeft="@drawable/ic_card"
+        android:drawablePadding="15dp"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <Button
+        android:text="Other"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnOther"
+        android:background="#fff"
+        android:textColor="#808080"
+        android:textAlignment="textStart"
+        android:drawableRight="@mipmap/ic_keyboard_arrow_right_grey600_48dp"
+        android:drawableLeft="@drawable/ic_other"
+        android:drawablePadding="15dp"
+        style="?android:attr/borderlessButtonStyle"/>
+</LinearLayout>

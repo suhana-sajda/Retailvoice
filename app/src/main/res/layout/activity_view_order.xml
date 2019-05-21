@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="0.7"
+            android:text="Total:"
+            android:textAlignment="textEnd"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="₹ 8645.00"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="30sp"
+            android:id="@+id/tvTotal" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/productView"
+        android:layout_height="0dp"
+        android:layout_weight="4" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/chargeButton"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="0.5"
+        android:background="@color/colorPrimary"
+        android:text="Move to Checkout"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="30dp" />
+
+
+</LinearLayout>

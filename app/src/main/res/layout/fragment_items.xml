@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnItems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:paddingLeft="46dp"
+        android:text="All Item"
+        android:textColor="#808080" />
+
+    <Button
+        android:id="@+id/btnCategories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:paddingLeft="46dp"
+        android:text="Categories"
+        android:textColor="#808080" />
+
+    <Button
+        android:id="@+id/btnDiscounts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:paddingLeft="46dp"
+        android:text="Discounts"
+        android:textColor="#808080" />
+</LinearLayout>
+
+

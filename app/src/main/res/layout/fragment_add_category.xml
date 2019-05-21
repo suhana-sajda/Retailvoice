@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:hint="Category Name"
+            android:paddingTop="15dp" />
+
+        <!--<Button-->
+        <!--android:text="Done"-->
+        <!--android:textColor="#03dac6"-->
+        <!--android:layout_width="357dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/btnDone" />-->
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btnDone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            android:backgroundTint="@color/colorPrimaryDark"
+            app:srcCompat="@drawable/ic_done" />
+    </FrameLayout>
+</LinearLayout>

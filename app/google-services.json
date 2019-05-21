@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "910820047328",
+    "firebase_url": "https://retailvoice-a52dd.firebaseio.com",
+    "project_id": "retailvoice-a52dd",
+    "storage_bucket": "retailvoice-a52dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:910820047328:android:2a513d61765003fd",
+        "android_client_info": {
+          "package_name": "com.retailspace.retailspaceseller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "910820047328-ur53jb34bni3funtqr6c92lrbine7t08.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAD45fHBS1T5CVqkD7WYfF9Y8jgQ5lt3OQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "910820047328-ur53jb34bni3funtqr6c92lrbine7t08.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

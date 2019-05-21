@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <Button
+        android:text="Issue Reciept"
+        android:layout_width="match_parent"
+        android:textColor="#03dac6"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnIssueReciept"
+        android:layout_weight="0.03" />
+
+    <Button
+        android:text="Issue Refund"
+        android:textColor="#03dac6"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnIssueRefund"
+        android:layout_weight="0.03" />
+</LinearLayout>
