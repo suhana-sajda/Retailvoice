@@ -18,3 +18,5 @@ Checkout page             |  Payment page        |  Receipt page
 :-------------------------:|:-------------------------:|:-------------------------:
 ![Checkout page](https://github.com/suhana-sajda/Retailvoice/blob/master/screens/File%204.png)  |  ![Payment page](https://github.com/suhana-sajda/Retailvoice/blob/master/screens/File%205.png) |  ![Receipt page](https://github.com/suhana-sajda/Retailvoice/blob/master/screens/File%206.png)
 
+#Have Fun
+
