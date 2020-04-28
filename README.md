@@ -1,6 +1,6 @@
 # Retailvoice
 
-Voice enabled inventory management app
+Voice based retail automation
 
 # Instructions to run
 
